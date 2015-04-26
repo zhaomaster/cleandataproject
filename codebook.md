@@ -4,7 +4,7 @@ The data for this project was from Human Activity Recognition Using Smartphones 
 This R project extracts the mean and standard deviation data for each measurement into a separate dataset (66 variables), relabels the variables with descriptive names, based on which it generates a new tidy dataset with the average for each activity and each subject.    
 
 The processed tidy dataset:
-A narrow and tall dataset with 30*6*66=11880 rows and four columns: subject, activity, feature, mean. 
+A narrow and tall dataset with 30X6X66=11880 rows and four columns: subject, activity, feature, mean. 
 subject (int from 1 to 30 that represent the 30 peoples in the experiment). 
 activity (int from 1 to 6 that represent the six activities including walking, walking_upstairs, walking_downstairs, sitting, standing, laying). 
 feature (factor with 66 levels that represent the 66 mean or standard deviation measurements extracted from the raw data).
